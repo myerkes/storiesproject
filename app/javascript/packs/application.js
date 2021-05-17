@@ -8,24 +8,9 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-//= require jquery
-//= require jquery_ujs 
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-var main = function() {
-    $(".icon-menu").click(function() {
-        $(".menu").animate({
-            left: "0px"
-        }, 200)
-    }),
-    $(".icon-close").click(function() {
-        $(".menu").animate({
-            left: "-240px"
-        }, 200)
-    })
-};
-$(document).ready(main);
 
