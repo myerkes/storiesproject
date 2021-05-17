@@ -1,3 +1,90 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1 {
+    font-size: 70px;
+}
+
+body h2 {
+    font-size: 40px;
+}
+
+.menu {
+    background-color: #000;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 240px;
+    left: 0px;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu li a, .menu li a:visited {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+.menu .icon-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.home-main {
+    background: url('/assets/image1.jpg') center;
+    background-size: cover;
+    height: 600px;
+}
+
+.home-main .icon-menu {
+    margin: 25px;
+}
+
+.home-main .container {
+    margin-top: 250px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.home-supporting {
+    text-align: center;
+    margin: 50px;
+}
+
+
+.home-secondary {
+    background: url('/assets/image2.jpg') center;
+    background-size: cover;
+    height: 700px;
+}
+
+.home-about {
+    text-align: center;
+    margin: 50px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    padding: 40px 0 30px 0;
+}
+
+.btn-primary {
+    margin: 25px;
+}
