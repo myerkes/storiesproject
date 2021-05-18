@@ -4,5 +4,8 @@ Rails.application.routes.draw do
 
   get '/home' => 'pages#home', as: :home
   get '/about' => 'pages#about', as: :about
-  get '/contact' => 'pages#contact', as: :contact
+  get '/contact' => 'signups#new', as: :contact
+  get '/thanks' => 'pages#thanks', as: :thanks
+
+  resources :signups
 end

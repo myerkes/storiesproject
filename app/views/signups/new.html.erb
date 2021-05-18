@@ -1,0 +1,17 @@
+<div class="contact-main">
+    <img class="icon-menu" src="/assets/menu-white.svg" width=50px>
+    <div class="container">
+        <h1>Contact us</h1>
+    </div>
+</div>
+
+<div class="contact-supporting">
+    <div class="container">
+        <%= form_for(@signup) do |signup| %>
+        <%= signup.text_field :firstname, :placeholder => "First Name" %>
+        <%= signup.text_field :lastname, :placeholder => "Last Name" %>
+        <%= signup.text_field :email, :placeholder => "Email" %>
+        <%= signup.submit "Submit", :class => "btn btn-primary" %>
+        <% end %>
+    </div>
+</div>
