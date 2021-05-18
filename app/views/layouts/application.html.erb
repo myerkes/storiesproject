@@ -12,7 +12,26 @@
   </head>
 
   <body>
+  <!-- Navigation Menu -->
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <img class="icon-close" src="/assets/close-white.svg" width=25px>
+    </div>
+
+    <!-- Page Content -->
     <%= yield %>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <p>A Matthew Yerkes Project</p>
+      </div>
+    </div>
+
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'menu' %>
   </body>
