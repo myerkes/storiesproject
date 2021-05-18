@@ -51,11 +51,24 @@ body h2 {
     height: 600px;
 }
 
-.home-main .icon-menu {
+.icon-menu {
     margin: 25px;
 }
 
 .home-main .container {
+    margin-top: 250px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+
+.about-main {
+    background: url('/assets/image3.jpg') center;
+    background-size: cover;
+    height: 700px;
+}
+
+.about-main .container {
     margin-top: 250px;
     color: white;
     text-shadow: 2px 2px black;
@@ -67,6 +80,10 @@ body h2 {
     margin: 50px;
 }
 
+.about-supporting {
+    text-align: center;
+    margin: 50px;
+}
 
 .home-secondary {
     background: url('/assets/image2.jpg') center;
